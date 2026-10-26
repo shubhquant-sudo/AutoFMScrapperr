@@ -1,0 +1,7 @@
+Start on Assumptions. Check History, then enter the yellow forecast inputs and the DCF inputs. All forecast/valuation inputs are intentionally blank. Zero and missing are different.
+
+Statements contains the income statement, balance sheet and cash flow, with supporting calculations and checks below them. DCF uses that forecast. History contains all normalized annual observations; Raw statements retains the original source lines. Sources contains exact raw files, normalized history and the field/cell maps.
+
+If a required historical value is missing, check the original filing and complete its yellow cell on History. Never replace a missing figure with zero unless it is actually zero. Source period labels and reporting basis are as supplied.
+
+The forecast holds other assets/liabilities constant and excludes acquisitions, disposals, stock compensation, FX and additional noncash adjustments. It does not add debt automatically to hide negative cash.

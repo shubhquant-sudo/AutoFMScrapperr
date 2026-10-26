@@ -1,0 +1,1625 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple Inc.",
+  "currency": "USD",
+  "factor": 1000000.0,
+  "unit": "USD millions",
+  "history": [
+    {
+      "period": "2022-09-30",
+      "values": {
+        "revenue": 394328.0,
+        "cogs": 223546.0,
+        "gross_profit": 170782.0,
+        "ebitda": 130541.0,
+        "da": 11104.0,
+        "ebit": 119437.0,
+        "interest": 2931.0,
+        "other_income": -334.0,
+        "pbt": 119103.0,
+        "tax": 19300.0,
+        "net_profit": 99803.0,
+        "parent_profit": 99803.0,
+        "cash": 23646.0,
+        "receivables": 28184.0,
+        "inventory": 4946.0,
+        "ppe": 42117.0,
+        "assets": 352755.0,
+        "payables": 64115.0,
+        "debt": 132480.0,
+        "liabilities": 302083.0,
+        "equity": 50672.0,
+        "parent_equity": 50672.0,
+        "minorities": null,
+        "retained_earnings": -3068.0,
+        "cfo": 122151.0,
+        "cfi": -22354.0,
+        "cff": -110749.0,
+        "capex": 10708.0,
+        "dividends": 14841.0,
+        "fx": null,
+        "cash_change": -10952.0,
+        "cash_begin": 35929.0,
+        "cash_end": 24977.0,
+        "net_borrowing": -123.0,
+        "debt_issued": 5465.0,
+        "debt_repaid": 9543.0,
+        "net_equity_cash_flow": -89402.0,
+        "shares": 15943.425,
+        "share_capital": 64849.0,
+        "reserves": null,
+        "other_assets": null,
+        "other_liabilities": null,
+        "cwip": null,
+        "investments": 120805.0
+      }
+    },
+    {
+      "period": "2023-09-30",
+      "values": {
+        "revenue": 383285.0,
+        "cogs": 214137.0,
+        "gross_profit": 169148.0,
+        "ebitda": 125820.0,
+        "da": 11519.0,
+        "ebit": 114301.0,
+        "interest": 3933.0,
+        "other_income": -565.0,
+        "pbt": 113736.0,
+        "tax": 16741.0,
+        "net_profit": 96995.0,
+        "parent_profit": 96995.0,
+        "cash": 29965.0,
+        "receivables": 29508.0,
+        "inventory": 6331.0,
+        "ppe": 43715.0,
+        "assets": 352583.0,
+        "payables": 62611.0,
+        "debt": 111088.0,
+        "liabilities": 290437.0,
+        "equity": 62146.0,
+        "parent_equity": 62146.0,
+        "minorities": null,
+        "retained_earnings": -214.0,
+        "cfo": 110543.0,
+        "cfi": 3705.0,
+        "cff": -108488.0,
+        "capex": 10959.0,
+        "dividends": 15025.0,
+        "fx": null,
+        "cash_change": 5760.0,
+        "cash_begin": 24977.0,
+        "cash_end": 30737.0,
+        "net_borrowing": -9901.0,
+        "debt_issued": 5228.0,
+        "debt_repaid": 11151.0,
+        "net_equity_cash_flow": -77550.0,
+        "shares": 15550.061,
+        "share_capital": 73812.0,
+        "reserves": null,
+        "other_assets": null,
+        "other_liabilities": null,
+        "cwip": null,
+        "investments": 100544.0
+      }
+    },
+    {
+      "period": "2024-09-30",
+      "values": {
+        "revenue": 391035.0,
+        "cogs": 210352.0,
+        "gross_profit": 180683.0,
+        "ebitda": 134661.0,
+        "da": 11445.0,
+        "ebit": 123216.0,
+        "interest": null,
+        "other_income": 269.0,
+        "pbt": 123485.0,
+        "tax": 29749.0,
+        "net_profit": 93736.0,
+        "parent_profit": 93736.0,
+        "cash": 29943.0,
+        "receivables": 33410.0,
+        "inventory": 7286.0,
+        "ppe": 45680.0,
+        "assets": 364980.0,
+        "payables": 68960.0,
+        "debt": 106629.0,
+        "liabilities": 308030.0,
+        "equity": 56950.0,
+        "parent_equity": 56950.0,
+        "minorities": null,
+        "retained_earnings": -19154.0,
+        "cfo": 118254.0,
+        "cfi": 2935.0,
+        "cff": -121983.0,
+        "capex": 9447.0,
+        "dividends": 15234.0,
+        "fx": null,
+        "cash_change": -794.0,
+        "cash_begin": 30737.0,
+        "cash_end": 29943.0,
+        "net_borrowing": -5998.0,
+        "debt_issued": 0.0,
+        "debt_repaid": 9958.0,
+        "net_equity_cash_flow": -94949.0,
+        "shares": 15116.786,
+        "share_capital": 83276.0,
+        "reserves": null,
+        "other_assets": null,
+        "other_liabilities": null,
+        "cwip": null,
+        "investments": 91479.0
+      }
+    },
+    {
+      "period": "2025-09-30",
+      "values": {
+        "revenue": 416161.0,
+        "cogs": 220960.0,
+        "gross_profit": 195201.0,
+        "ebitda": 144748.0,
+        "da": 11698.0,
+        "ebit": 133050.0,
+        "interest": null,
+        "other_income": -321.0,
+        "pbt": 132729.0,
+        "tax": 20719.0,
+        "net_profit": 112010.0,
+        "parent_profit": 112010.0,
+        "cash": 35934.0,
+        "receivables": 39777.0,
+        "inventory": 5718.0,
+        "ppe": 49834.0,
+        "assets": 359241.0,
+        "payables": 69860.0,
+        "debt": 98657.0,
+        "liabilities": 285508.0,
+        "equity": 73733.0,
+        "parent_equity": 73733.0,
+        "minorities": null,
+        "retained_earnings": -14264.0,
+        "cfo": 111482.0,
+        "cfi": 15195.0,
+        "cff": -120686.0,
+        "capex": 12715.0,
+        "dividends": 15421.0,
+        "fx": null,
+        "cash_change": 5991.0,
+        "cash_begin": 29943.0,
+        "cash_end": 35934.0,
+        "net_borrowing": -8483.0,
+        "debt_issued": 4481.0,
+        "debt_repaid": 10932.0,
+        "net_equity_cash_flow": -90711.0,
+        "shares": 14773.26,
+        "share_capital": 93568.0,
+        "reserves": null,
+        "other_assets": null,
+        "other_liabilities": null,
+        "cwip": null,
+        "investments": 77723.0
+      }
+    }
+  ],
+  "lineage": [
+    {
+      "period": "2022-09-30",
+      "key": "revenue",
+      "field": "income.TotalRevenue",
+      "value": 394328.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cogs",
+      "field": "income.CostOfRevenue",
+      "value": 223546.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "gross_profit",
+      "field": "income.GrossProfit",
+      "value": 170782.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "ebitda",
+      "field": "income.EBITDA",
+      "value": 130541.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "da",
+      "field": "income.ReconciledDepreciation",
+      "value": 11104.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "ebit",
+      "field": "income.OperatingIncome",
+      "value": 119437.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "interest",
+      "field": "income.InterestExpense",
+      "value": 2931.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "other_income",
+      "field": "income.OtherNonOperatingIncomeExpenses",
+      "value": -334.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "pbt",
+      "field": "income.PretaxIncome",
+      "value": 119103.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "tax",
+      "field": "income.TaxProvision",
+      "value": 19300.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "net_profit",
+      "field": "income.NetIncomeIncludingNoncontrollingInterests",
+      "value": 99803.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "parent_profit",
+      "field": "income.NetIncome",
+      "value": 99803.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cash",
+      "field": "balance.CashAndCashEquivalents",
+      "value": 23646.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "receivables",
+      "field": "balance.AccountsReceivable",
+      "value": 28184.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "inventory",
+      "field": "balance.Inventory",
+      "value": 4946.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "ppe",
+      "field": "balance.NetPPE",
+      "value": 42117.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "assets",
+      "field": "balance.TotalAssets",
+      "value": 352755.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "payables",
+      "field": "balance.AccountsPayable",
+      "value": 64115.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "debt",
+      "field": "balance.TotalDebt",
+      "value": 132480.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "liabilities",
+      "field": "balance.TotalLiabilitiesNetMinorityInterest",
+      "value": 302083.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "equity",
+      "field": "balance.TotalEquityGrossMinorityInterest",
+      "value": 50672.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "parent_equity",
+      "field": "balance.StockholdersEquity",
+      "value": 50672.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "minorities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "retained_earnings",
+      "field": "balance.RetainedEarnings",
+      "value": -3068.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cfo",
+      "field": "cashflow.OperatingCashFlow",
+      "value": 122151.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cfi",
+      "field": "cashflow.InvestingCashFlow",
+      "value": -22354.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cff",
+      "field": "cashflow.FinancingCashFlow",
+      "value": -110749.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "capex",
+      "field": "cashflow.PurchaseOfPPE",
+      "value": 10708.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "dividends",
+      "field": "cashflow.CashDividendsPaid",
+      "value": 14841.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "fx",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cash_change",
+      "field": "cashflow.ChangesInCash",
+      "value": -10952.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cash_begin",
+      "field": "cashflow.BeginningCashPosition",
+      "value": 35929.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cash_end",
+      "field": "cashflow.EndCashPosition",
+      "value": 24977.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "net_borrowing",
+      "field": "cashflow.NetIssuancePaymentsOfDebt",
+      "value": -123.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "debt_issued",
+      "field": "cashflow.IssuanceOfDebt",
+      "value": 5465.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "debt_repaid",
+      "field": "cashflow.RepaymentOfDebt",
+      "value": 9543.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "net_equity_cash_flow",
+      "field": "cashflow.NetCommonStockIssuance",
+      "value": -89402.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "shares",
+      "field": "balance.OrdinarySharesNumber",
+      "value": 15943.425,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "share_capital",
+      "field": "balance.CapitalStock",
+      "value": 64849.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "reserves",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "other_assets",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "other_liabilities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "cwip",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2022-09-30",
+      "key": "investments",
+      "field": "balance.InvestmentsAndAdvances",
+      "value": 120805.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "revenue",
+      "field": "income.TotalRevenue",
+      "value": 383285.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cogs",
+      "field": "income.CostOfRevenue",
+      "value": 214137.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "gross_profit",
+      "field": "income.GrossProfit",
+      "value": 169148.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "ebitda",
+      "field": "income.EBITDA",
+      "value": 125820.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "da",
+      "field": "income.ReconciledDepreciation",
+      "value": 11519.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "ebit",
+      "field": "income.OperatingIncome",
+      "value": 114301.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "interest",
+      "field": "income.InterestExpense",
+      "value": 3933.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "other_income",
+      "field": "income.OtherNonOperatingIncomeExpenses",
+      "value": -565.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "pbt",
+      "field": "income.PretaxIncome",
+      "value": 113736.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "tax",
+      "field": "income.TaxProvision",
+      "value": 16741.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "net_profit",
+      "field": "income.NetIncomeIncludingNoncontrollingInterests",
+      "value": 96995.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "parent_profit",
+      "field": "income.NetIncome",
+      "value": 96995.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cash",
+      "field": "balance.CashAndCashEquivalents",
+      "value": 29965.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "receivables",
+      "field": "balance.AccountsReceivable",
+      "value": 29508.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "inventory",
+      "field": "balance.Inventory",
+      "value": 6331.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "ppe",
+      "field": "balance.NetPPE",
+      "value": 43715.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "assets",
+      "field": "balance.TotalAssets",
+      "value": 352583.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "payables",
+      "field": "balance.AccountsPayable",
+      "value": 62611.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "debt",
+      "field": "balance.TotalDebt",
+      "value": 111088.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "liabilities",
+      "field": "balance.TotalLiabilitiesNetMinorityInterest",
+      "value": 290437.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "equity",
+      "field": "balance.TotalEquityGrossMinorityInterest",
+      "value": 62146.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "parent_equity",
+      "field": "balance.StockholdersEquity",
+      "value": 62146.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "minorities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "retained_earnings",
+      "field": "balance.RetainedEarnings",
+      "value": -214.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cfo",
+      "field": "cashflow.OperatingCashFlow",
+      "value": 110543.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cfi",
+      "field": "cashflow.InvestingCashFlow",
+      "value": 3705.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cff",
+      "field": "cashflow.FinancingCashFlow",
+      "value": -108488.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "capex",
+      "field": "cashflow.PurchaseOfPPE",
+      "value": 10959.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "dividends",
+      "field": "cashflow.CashDividendsPaid",
+      "value": 15025.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "fx",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cash_change",
+      "field": "cashflow.ChangesInCash",
+      "value": 5760.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cash_begin",
+      "field": "cashflow.BeginningCashPosition",
+      "value": 24977.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cash_end",
+      "field": "cashflow.EndCashPosition",
+      "value": 30737.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "net_borrowing",
+      "field": "cashflow.NetIssuancePaymentsOfDebt",
+      "value": -9901.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "debt_issued",
+      "field": "cashflow.IssuanceOfDebt",
+      "value": 5228.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "debt_repaid",
+      "field": "cashflow.RepaymentOfDebt",
+      "value": 11151.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "net_equity_cash_flow",
+      "field": "cashflow.NetCommonStockIssuance",
+      "value": -77550.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "shares",
+      "field": "balance.OrdinarySharesNumber",
+      "value": 15550.061,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "share_capital",
+      "field": "balance.CapitalStock",
+      "value": 73812.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "reserves",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "other_assets",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "other_liabilities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "cwip",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2023-09-30",
+      "key": "investments",
+      "field": "balance.InvestmentsAndAdvances",
+      "value": 100544.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "revenue",
+      "field": "income.TotalRevenue",
+      "value": 391035.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cogs",
+      "field": "income.CostOfRevenue",
+      "value": 210352.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "gross_profit",
+      "field": "income.GrossProfit",
+      "value": 180683.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "ebitda",
+      "field": "income.EBITDA",
+      "value": 134661.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "da",
+      "field": "income.ReconciledDepreciation",
+      "value": 11445.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "ebit",
+      "field": "income.OperatingIncome",
+      "value": 123216.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "interest",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "other_income",
+      "field": "income.OtherNonOperatingIncomeExpenses",
+      "value": 269.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "pbt",
+      "field": "income.PretaxIncome",
+      "value": 123485.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "tax",
+      "field": "income.TaxProvision",
+      "value": 29749.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "net_profit",
+      "field": "income.NetIncomeIncludingNoncontrollingInterests",
+      "value": 93736.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "parent_profit",
+      "field": "income.NetIncome",
+      "value": 93736.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cash",
+      "field": "balance.CashAndCashEquivalents",
+      "value": 29943.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "receivables",
+      "field": "balance.AccountsReceivable",
+      "value": 33410.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "inventory",
+      "field": "balance.Inventory",
+      "value": 7286.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "ppe",
+      "field": "balance.NetPPE",
+      "value": 45680.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "assets",
+      "field": "balance.TotalAssets",
+      "value": 364980.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "payables",
+      "field": "balance.AccountsPayable",
+      "value": 68960.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "debt",
+      "field": "balance.TotalDebt",
+      "value": 106629.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "liabilities",
+      "field": "balance.TotalLiabilitiesNetMinorityInterest",
+      "value": 308030.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "equity",
+      "field": "balance.TotalEquityGrossMinorityInterest",
+      "value": 56950.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "parent_equity",
+      "field": "balance.StockholdersEquity",
+      "value": 56950.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "minorities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "retained_earnings",
+      "field": "balance.RetainedEarnings",
+      "value": -19154.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cfo",
+      "field": "cashflow.OperatingCashFlow",
+      "value": 118254.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cfi",
+      "field": "cashflow.InvestingCashFlow",
+      "value": 2935.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cff",
+      "field": "cashflow.FinancingCashFlow",
+      "value": -121983.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "capex",
+      "field": "cashflow.PurchaseOfPPE",
+      "value": 9447.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "dividends",
+      "field": "cashflow.CashDividendsPaid",
+      "value": 15234.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "fx",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cash_change",
+      "field": "cashflow.ChangesInCash",
+      "value": -794.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cash_begin",
+      "field": "cashflow.BeginningCashPosition",
+      "value": 30737.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cash_end",
+      "field": "cashflow.EndCashPosition",
+      "value": 29943.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "net_borrowing",
+      "field": "cashflow.NetIssuancePaymentsOfDebt",
+      "value": -5998.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "debt_issued",
+      "field": "cashflow.IssuanceOfDebt",
+      "value": 0.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "debt_repaid",
+      "field": "cashflow.RepaymentOfDebt",
+      "value": 9958.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "net_equity_cash_flow",
+      "field": "cashflow.NetCommonStockIssuance",
+      "value": -94949.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "shares",
+      "field": "balance.OrdinarySharesNumber",
+      "value": 15116.786,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "share_capital",
+      "field": "balance.CapitalStock",
+      "value": 83276.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "reserves",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "other_assets",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "other_liabilities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "cwip",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2024-09-30",
+      "key": "investments",
+      "field": "balance.InvestmentsAndAdvances",
+      "value": 91479.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "revenue",
+      "field": "income.TotalRevenue",
+      "value": 416161.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cogs",
+      "field": "income.CostOfRevenue",
+      "value": 220960.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "gross_profit",
+      "field": "income.GrossProfit",
+      "value": 195201.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "ebitda",
+      "field": "income.EBITDA",
+      "value": 144748.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "da",
+      "field": "income.ReconciledDepreciation",
+      "value": 11698.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "ebit",
+      "field": "income.OperatingIncome",
+      "value": 133050.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "interest",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "other_income",
+      "field": "income.OtherNonOperatingIncomeExpenses",
+      "value": -321.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "pbt",
+      "field": "income.PretaxIncome",
+      "value": 132729.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "tax",
+      "field": "income.TaxProvision",
+      "value": 20719.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "net_profit",
+      "field": "income.NetIncomeIncludingNoncontrollingInterests",
+      "value": 112010.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "parent_profit",
+      "field": "income.NetIncome",
+      "value": 112010.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cash",
+      "field": "balance.CashAndCashEquivalents",
+      "value": 35934.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "receivables",
+      "field": "balance.AccountsReceivable",
+      "value": 39777.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "inventory",
+      "field": "balance.Inventory",
+      "value": 5718.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "ppe",
+      "field": "balance.NetPPE",
+      "value": 49834.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "assets",
+      "field": "balance.TotalAssets",
+      "value": 359241.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "payables",
+      "field": "balance.AccountsPayable",
+      "value": 69860.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "debt",
+      "field": "balance.TotalDebt",
+      "value": 98657.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "liabilities",
+      "field": "balance.TotalLiabilitiesNetMinorityInterest",
+      "value": 285508.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "equity",
+      "field": "balance.TotalEquityGrossMinorityInterest",
+      "value": 73733.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "parent_equity",
+      "field": "balance.StockholdersEquity",
+      "value": 73733.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "minorities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "retained_earnings",
+      "field": "balance.RetainedEarnings",
+      "value": -14264.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cfo",
+      "field": "cashflow.OperatingCashFlow",
+      "value": 111482.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cfi",
+      "field": "cashflow.InvestingCashFlow",
+      "value": 15195.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cff",
+      "field": "cashflow.FinancingCashFlow",
+      "value": -120686.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "capex",
+      "field": "cashflow.PurchaseOfPPE",
+      "value": 12715.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "dividends",
+      "field": "cashflow.CashDividendsPaid",
+      "value": 15421.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "fx",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cash_change",
+      "field": "cashflow.ChangesInCash",
+      "value": 5991.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cash_begin",
+      "field": "cashflow.BeginningCashPosition",
+      "value": 29943.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cash_end",
+      "field": "cashflow.EndCashPosition",
+      "value": 35934.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "net_borrowing",
+      "field": "cashflow.NetIssuancePaymentsOfDebt",
+      "value": -8483.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "debt_issued",
+      "field": "cashflow.IssuanceOfDebt",
+      "value": 4481.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "debt_repaid",
+      "field": "cashflow.RepaymentOfDebt",
+      "value": 10932.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "net_equity_cash_flow",
+      "field": "cashflow.NetCommonStockIssuance",
+      "value": -90711.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "shares",
+      "field": "balance.OrdinarySharesNumber",
+      "value": 14773.26,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "share_capital",
+      "field": "balance.CapitalStock",
+      "value": 93568.0,
+      "note": "",
+      "status": "FETCHED"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "reserves",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "other_assets",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "other_liabilities",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "cwip",
+      "field": "",
+      "value": null,
+      "note": "",
+      "status": "MISSING"
+    },
+    {
+      "period": "2025-09-30",
+      "key": "investments",
+      "field": "balance.InvestmentsAndAdvances",
+      "value": 77723.0,
+      "note": "",
+      "status": "FETCHED"
+    }
+  ],
+  "notes": [
+    "Provider annual statements; consolidated/standalone basis not independently verified",
+    "Other asset/liability remainders are explicitly derived in Excel and held constant, not treated as verified operating classifications.",
+    "Provider statement definitions and minority-interest treatment require review."
+  ],
+  "basis": "Provider annual statements; consolidated/standalone basis not independently verified",
+  "provider": "Yahoo Finance via yfinance",
+  "retrieved": "2026-10-26T14:27:04.199053+00:00",
+  "source_url": "https://finance.yahoo.com/quote/AAPL/financials/",
+  "screener": false
+}

@@ -1,0 +1,206 @@
+{
+  "verified": true,
+  "recalculated_by_excel": true,
+  "formula_errors": [],
+  "all_forecast_and_dcf_inputs_blank": true,
+  "history_periods": [
+    "2022-09-30",
+    "2023-09-30",
+    "2024-09-30",
+    "2025-09-30"
+  ],
+  "missing_latest_source_fields": [],
+  "historical_checks_to_review": [],
+  "opening_source_notes": [],
+  "checks": [
+    {
+      "cell": "'Statements'!D107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!D108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!D109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!E107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!E108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!E109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!F107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!F108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!F109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": 0,
+      "status": "OK"
+    },
+    {
+      "cell": "'Statements'!H107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!H108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!H109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!I107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!I108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!I109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!J107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!J108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!J109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!K107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!K108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!K109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!L107",
+      "label": "Balance sheet difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!L108",
+      "label": "Profit reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    },
+    {
+      "cell": "'Statements'!L109",
+      "label": "Cash flow reconciliation difference",
+      "tolerance": 0.5,
+      "difference": null,
+      "status": "Missing source / inputs"
+    }
+  ],
+  "outputs": {
+    "Operating business value": null,
+    "Equity value": null,
+    "Value per share": null
+  },
+  "sheets": [
+    "Assumptions",
+    "Statements",
+    "DCF",
+    "History",
+    "Raw statements"
+  ],
+  "ticker": "AAPL",
+  "company": "Apple Inc.",
+  "workbook": "C:\\Users\\SHUBH\\3D Objects\\Financial Model Template\\Templete\\AutoFMScrapper\\Output\\AAPL\\20261026_Final\\AutoFMScrapper.xlsx",
+  "folder": "C:\\Users\\SHUBH\\3D Objects\\Financial Model Template\\Templete\\AutoFMScrapper\\Output\\AAPL\\20261026_Final",
+  "zip": "C:\\Users\\SHUBH\\3D Objects\\Financial Model Template\\Templete\\AutoFMScrapper\\Output\\AAPL\\20261026_Final.zip",
+  "created_utc": "2026-10-26T14:39:34.274101+00:00",
+  "source_route": "Offline cache",
+  "message": "Calculated and saved by Microsoft Excel.",
+  "unit": "USD millions"
+}

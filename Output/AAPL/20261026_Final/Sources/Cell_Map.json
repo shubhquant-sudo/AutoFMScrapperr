@@ -1,0 +1,1538 @@
+{
+  "inputs": {
+    "growth.1": {
+      "sheet": "Assumptions",
+      "cell": "F9",
+      "rule": {
+        "min": -1,
+        "strict": true
+      },
+      "optional": false
+    },
+    "growth.2": {
+      "sheet": "Assumptions",
+      "cell": "G9",
+      "rule": {
+        "min": -1,
+        "strict": true
+      },
+      "optional": false
+    },
+    "growth.3": {
+      "sheet": "Assumptions",
+      "cell": "H9",
+      "rule": {
+        "min": -1,
+        "strict": true
+      },
+      "optional": false
+    },
+    "growth.4": {
+      "sheet": "Assumptions",
+      "cell": "I9",
+      "rule": {
+        "min": -1,
+        "strict": true
+      },
+      "optional": false
+    },
+    "growth.5": {
+      "sheet": "Assumptions",
+      "cell": "J9",
+      "rule": {
+        "min": -1,
+        "strict": true
+      },
+      "optional": false
+    },
+    "gross_margin.1": {
+      "sheet": "Assumptions",
+      "cell": "F10",
+      "rule": {
+        "max": 1
+      },
+      "optional": false
+    },
+    "gross_margin.2": {
+      "sheet": "Assumptions",
+      "cell": "G10",
+      "rule": {
+        "max": 1
+      },
+      "optional": false
+    },
+    "gross_margin.3": {
+      "sheet": "Assumptions",
+      "cell": "H10",
+      "rule": {
+        "max": 1
+      },
+      "optional": false
+    },
+    "gross_margin.4": {
+      "sheet": "Assumptions",
+      "cell": "I10",
+      "rule": {
+        "max": 1
+      },
+      "optional": false
+    },
+    "gross_margin.5": {
+      "sheet": "Assumptions",
+      "cell": "J10",
+      "rule": {
+        "max": 1
+      },
+      "optional": false
+    },
+    "ebitda_margin.1": {
+      "sheet": "Assumptions",
+      "cell": "F11",
+      "rule": {},
+      "optional": false
+    },
+    "ebitda_margin.2": {
+      "sheet": "Assumptions",
+      "cell": "G11",
+      "rule": {},
+      "optional": false
+    },
+    "ebitda_margin.3": {
+      "sheet": "Assumptions",
+      "cell": "H11",
+      "rule": {},
+      "optional": false
+    },
+    "ebitda_margin.4": {
+      "sheet": "Assumptions",
+      "cell": "I11",
+      "rule": {},
+      "optional": false
+    },
+    "ebitda_margin.5": {
+      "sheet": "Assumptions",
+      "cell": "J11",
+      "rule": {},
+      "optional": false
+    },
+    "tax_rate.1": {
+      "sheet": "Assumptions",
+      "cell": "F12",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "tax_rate.2": {
+      "sheet": "Assumptions",
+      "cell": "G12",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "tax_rate.3": {
+      "sheet": "Assumptions",
+      "cell": "H12",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "tax_rate.4": {
+      "sheet": "Assumptions",
+      "cell": "I12",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "tax_rate.5": {
+      "sheet": "Assumptions",
+      "cell": "J12",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "receivable_days.1": {
+      "sheet": "Assumptions",
+      "cell": "F13",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "receivable_days.2": {
+      "sheet": "Assumptions",
+      "cell": "G13",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "receivable_days.3": {
+      "sheet": "Assumptions",
+      "cell": "H13",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "receivable_days.4": {
+      "sheet": "Assumptions",
+      "cell": "I13",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "receivable_days.5": {
+      "sheet": "Assumptions",
+      "cell": "J13",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "inventory_days.1": {
+      "sheet": "Assumptions",
+      "cell": "F14",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "inventory_days.2": {
+      "sheet": "Assumptions",
+      "cell": "G14",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "inventory_days.3": {
+      "sheet": "Assumptions",
+      "cell": "H14",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "inventory_days.4": {
+      "sheet": "Assumptions",
+      "cell": "I14",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "inventory_days.5": {
+      "sheet": "Assumptions",
+      "cell": "J14",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "payable_days.1": {
+      "sheet": "Assumptions",
+      "cell": "F15",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "payable_days.2": {
+      "sheet": "Assumptions",
+      "cell": "G15",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "payable_days.3": {
+      "sheet": "Assumptions",
+      "cell": "H15",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "payable_days.4": {
+      "sheet": "Assumptions",
+      "cell": "I15",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "payable_days.5": {
+      "sheet": "Assumptions",
+      "cell": "J15",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "capex_rate.1": {
+      "sheet": "Assumptions",
+      "cell": "F16",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "capex_rate.2": {
+      "sheet": "Assumptions",
+      "cell": "G16",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "capex_rate.3": {
+      "sheet": "Assumptions",
+      "cell": "H16",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "capex_rate.4": {
+      "sheet": "Assumptions",
+      "cell": "I16",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "capex_rate.5": {
+      "sheet": "Assumptions",
+      "cell": "J16",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "depreciation_rate.1": {
+      "sheet": "Assumptions",
+      "cell": "F17",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "depreciation_rate.2": {
+      "sheet": "Assumptions",
+      "cell": "G17",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "depreciation_rate.3": {
+      "sheet": "Assumptions",
+      "cell": "H17",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "depreciation_rate.4": {
+      "sheet": "Assumptions",
+      "cell": "I17",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "depreciation_rate.5": {
+      "sheet": "Assumptions",
+      "cell": "J17",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "interest_rate.1": {
+      "sheet": "Assumptions",
+      "cell": "F18",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "interest_rate.2": {
+      "sheet": "Assumptions",
+      "cell": "G18",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "interest_rate.3": {
+      "sheet": "Assumptions",
+      "cell": "H18",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "interest_rate.4": {
+      "sheet": "Assumptions",
+      "cell": "I18",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "interest_rate.5": {
+      "sheet": "Assumptions",
+      "cell": "J18",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "repayment_rate.1": {
+      "sheet": "Assumptions",
+      "cell": "F19",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "repayment_rate.2": {
+      "sheet": "Assumptions",
+      "cell": "G19",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "repayment_rate.3": {
+      "sheet": "Assumptions",
+      "cell": "H19",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "repayment_rate.4": {
+      "sheet": "Assumptions",
+      "cell": "I19",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "repayment_rate.5": {
+      "sheet": "Assumptions",
+      "cell": "J19",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "new_borrowing.1": {
+      "sheet": "Assumptions",
+      "cell": "F20",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "new_borrowing.2": {
+      "sheet": "Assumptions",
+      "cell": "G20",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "new_borrowing.3": {
+      "sheet": "Assumptions",
+      "cell": "H20",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "new_borrowing.4": {
+      "sheet": "Assumptions",
+      "cell": "I20",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "new_borrowing.5": {
+      "sheet": "Assumptions",
+      "cell": "J20",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "payout_rate.1": {
+      "sheet": "Assumptions",
+      "cell": "F21",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "payout_rate.2": {
+      "sheet": "Assumptions",
+      "cell": "G21",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "payout_rate.3": {
+      "sheet": "Assumptions",
+      "cell": "H21",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "payout_rate.4": {
+      "sheet": "Assumptions",
+      "cell": "I21",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "payout_rate.5": {
+      "sheet": "Assumptions",
+      "cell": "J21",
+      "rule": {
+        "min": 0,
+        "max": 1
+      },
+      "optional": false
+    },
+    "other_income.1": {
+      "sheet": "Assumptions",
+      "cell": "F22",
+      "rule": {},
+      "optional": false
+    },
+    "other_income.2": {
+      "sheet": "Assumptions",
+      "cell": "G22",
+      "rule": {},
+      "optional": false
+    },
+    "other_income.3": {
+      "sheet": "Assumptions",
+      "cell": "H22",
+      "rule": {},
+      "optional": false
+    },
+    "other_income.4": {
+      "sheet": "Assumptions",
+      "cell": "I22",
+      "rule": {},
+      "optional": false
+    },
+    "other_income.5": {
+      "sheet": "Assumptions",
+      "cell": "J22",
+      "rule": {},
+      "optional": false
+    },
+    "equity_cash_flow.1": {
+      "sheet": "Assumptions",
+      "cell": "F23",
+      "rule": {},
+      "optional": false
+    },
+    "equity_cash_flow.2": {
+      "sheet": "Assumptions",
+      "cell": "G23",
+      "rule": {},
+      "optional": false
+    },
+    "equity_cash_flow.3": {
+      "sheet": "Assumptions",
+      "cell": "H23",
+      "rule": {},
+      "optional": false
+    },
+    "equity_cash_flow.4": {
+      "sheet": "Assumptions",
+      "cell": "I23",
+      "rule": {},
+      "optional": false
+    },
+    "equity_cash_flow.5": {
+      "sheet": "Assumptions",
+      "cell": "J23",
+      "rule": {},
+      "optional": false
+    },
+    "wacc": {
+      "sheet": "Assumptions",
+      "cell": "F31",
+      "rule": {
+        "min": 0,
+        "strict": true
+      },
+      "optional": false
+    },
+    "terminal_growth": {
+      "sheet": "Assumptions",
+      "cell": "F32",
+      "rule": {
+        "min": -1,
+        "strict": true
+      },
+      "optional": false
+    },
+    "shares": {
+      "sheet": "Assumptions",
+      "cell": "F33",
+      "rule": {
+        "min": 0,
+        "strict": true
+      },
+      "optional": false
+    },
+    "claims": {
+      "sheet": "Assumptions",
+      "cell": "F34",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "nonoperating": {
+      "sheet": "Assumptions",
+      "cell": "F35",
+      "rule": {
+        "min": 0
+      },
+      "optional": false
+    },
+    "price": {
+      "sheet": "Assumptions",
+      "cell": "F36",
+      "rule": {
+        "min": 0,
+        "strict": true
+      },
+      "optional": true
+    }
+  },
+  "history": {
+    "2022-09-30.revenue": {
+      "sheet": "History",
+      "cell": "D9",
+      "missing": false
+    },
+    "2023-09-30.revenue": {
+      "sheet": "History",
+      "cell": "E9",
+      "missing": false
+    },
+    "2024-09-30.revenue": {
+      "sheet": "History",
+      "cell": "F9",
+      "missing": false
+    },
+    "2025-09-30.revenue": {
+      "sheet": "History",
+      "cell": "G9",
+      "missing": false
+    },
+    "2022-09-30.cogs": {
+      "sheet": "History",
+      "cell": "D10",
+      "missing": false
+    },
+    "2023-09-30.cogs": {
+      "sheet": "History",
+      "cell": "E10",
+      "missing": false
+    },
+    "2024-09-30.cogs": {
+      "sheet": "History",
+      "cell": "F10",
+      "missing": false
+    },
+    "2025-09-30.cogs": {
+      "sheet": "History",
+      "cell": "G10",
+      "missing": false
+    },
+    "2022-09-30.gross_profit": {
+      "sheet": "History",
+      "cell": "D11",
+      "missing": false
+    },
+    "2023-09-30.gross_profit": {
+      "sheet": "History",
+      "cell": "E11",
+      "missing": false
+    },
+    "2024-09-30.gross_profit": {
+      "sheet": "History",
+      "cell": "F11",
+      "missing": false
+    },
+    "2025-09-30.gross_profit": {
+      "sheet": "History",
+      "cell": "G11",
+      "missing": false
+    },
+    "2022-09-30.ebitda": {
+      "sheet": "History",
+      "cell": "D12",
+      "missing": false
+    },
+    "2023-09-30.ebitda": {
+      "sheet": "History",
+      "cell": "E12",
+      "missing": false
+    },
+    "2024-09-30.ebitda": {
+      "sheet": "History",
+      "cell": "F12",
+      "missing": false
+    },
+    "2025-09-30.ebitda": {
+      "sheet": "History",
+      "cell": "G12",
+      "missing": false
+    },
+    "2022-09-30.da": {
+      "sheet": "History",
+      "cell": "D13",
+      "missing": false
+    },
+    "2023-09-30.da": {
+      "sheet": "History",
+      "cell": "E13",
+      "missing": false
+    },
+    "2024-09-30.da": {
+      "sheet": "History",
+      "cell": "F13",
+      "missing": false
+    },
+    "2025-09-30.da": {
+      "sheet": "History",
+      "cell": "G13",
+      "missing": false
+    },
+    "2022-09-30.ebit": {
+      "sheet": "History",
+      "cell": "D14",
+      "missing": false
+    },
+    "2023-09-30.ebit": {
+      "sheet": "History",
+      "cell": "E14",
+      "missing": false
+    },
+    "2024-09-30.ebit": {
+      "sheet": "History",
+      "cell": "F14",
+      "missing": false
+    },
+    "2025-09-30.ebit": {
+      "sheet": "History",
+      "cell": "G14",
+      "missing": false
+    },
+    "2022-09-30.interest": {
+      "sheet": "History",
+      "cell": "D15",
+      "missing": false
+    },
+    "2023-09-30.interest": {
+      "sheet": "History",
+      "cell": "E15",
+      "missing": false
+    },
+    "2024-09-30.interest": {
+      "sheet": "History",
+      "cell": "F15",
+      "missing": true
+    },
+    "2025-09-30.interest": {
+      "sheet": "History",
+      "cell": "G15",
+      "missing": true
+    },
+    "2022-09-30.other_income": {
+      "sheet": "History",
+      "cell": "D16",
+      "missing": false
+    },
+    "2023-09-30.other_income": {
+      "sheet": "History",
+      "cell": "E16",
+      "missing": false
+    },
+    "2024-09-30.other_income": {
+      "sheet": "History",
+      "cell": "F16",
+      "missing": false
+    },
+    "2025-09-30.other_income": {
+      "sheet": "History",
+      "cell": "G16",
+      "missing": false
+    },
+    "2022-09-30.pbt": {
+      "sheet": "History",
+      "cell": "D17",
+      "missing": false
+    },
+    "2023-09-30.pbt": {
+      "sheet": "History",
+      "cell": "E17",
+      "missing": false
+    },
+    "2024-09-30.pbt": {
+      "sheet": "History",
+      "cell": "F17",
+      "missing": false
+    },
+    "2025-09-30.pbt": {
+      "sheet": "History",
+      "cell": "G17",
+      "missing": false
+    },
+    "2022-09-30.tax": {
+      "sheet": "History",
+      "cell": "D18",
+      "missing": false
+    },
+    "2023-09-30.tax": {
+      "sheet": "History",
+      "cell": "E18",
+      "missing": false
+    },
+    "2024-09-30.tax": {
+      "sheet": "History",
+      "cell": "F18",
+      "missing": false
+    },
+    "2025-09-30.tax": {
+      "sheet": "History",
+      "cell": "G18",
+      "missing": false
+    },
+    "2022-09-30.net_profit": {
+      "sheet": "History",
+      "cell": "D19",
+      "missing": false
+    },
+    "2023-09-30.net_profit": {
+      "sheet": "History",
+      "cell": "E19",
+      "missing": false
+    },
+    "2024-09-30.net_profit": {
+      "sheet": "History",
+      "cell": "F19",
+      "missing": false
+    },
+    "2025-09-30.net_profit": {
+      "sheet": "History",
+      "cell": "G19",
+      "missing": false
+    },
+    "2022-09-30.parent_profit": {
+      "sheet": "History",
+      "cell": "D20",
+      "missing": false
+    },
+    "2023-09-30.parent_profit": {
+      "sheet": "History",
+      "cell": "E20",
+      "missing": false
+    },
+    "2024-09-30.parent_profit": {
+      "sheet": "History",
+      "cell": "F20",
+      "missing": false
+    },
+    "2025-09-30.parent_profit": {
+      "sheet": "History",
+      "cell": "G20",
+      "missing": false
+    },
+    "2022-09-30.cash": {
+      "sheet": "History",
+      "cell": "D21",
+      "missing": false
+    },
+    "2023-09-30.cash": {
+      "sheet": "History",
+      "cell": "E21",
+      "missing": false
+    },
+    "2024-09-30.cash": {
+      "sheet": "History",
+      "cell": "F21",
+      "missing": false
+    },
+    "2025-09-30.cash": {
+      "sheet": "History",
+      "cell": "G21",
+      "missing": false
+    },
+    "2022-09-30.receivables": {
+      "sheet": "History",
+      "cell": "D22",
+      "missing": false
+    },
+    "2023-09-30.receivables": {
+      "sheet": "History",
+      "cell": "E22",
+      "missing": false
+    },
+    "2024-09-30.receivables": {
+      "sheet": "History",
+      "cell": "F22",
+      "missing": false
+    },
+    "2025-09-30.receivables": {
+      "sheet": "History",
+      "cell": "G22",
+      "missing": false
+    },
+    "2022-09-30.inventory": {
+      "sheet": "History",
+      "cell": "D23",
+      "missing": false
+    },
+    "2023-09-30.inventory": {
+      "sheet": "History",
+      "cell": "E23",
+      "missing": false
+    },
+    "2024-09-30.inventory": {
+      "sheet": "History",
+      "cell": "F23",
+      "missing": false
+    },
+    "2025-09-30.inventory": {
+      "sheet": "History",
+      "cell": "G23",
+      "missing": false
+    },
+    "2022-09-30.ppe": {
+      "sheet": "History",
+      "cell": "D24",
+      "missing": false
+    },
+    "2023-09-30.ppe": {
+      "sheet": "History",
+      "cell": "E24",
+      "missing": false
+    },
+    "2024-09-30.ppe": {
+      "sheet": "History",
+      "cell": "F24",
+      "missing": false
+    },
+    "2025-09-30.ppe": {
+      "sheet": "History",
+      "cell": "G24",
+      "missing": false
+    },
+    "2022-09-30.assets": {
+      "sheet": "History",
+      "cell": "D25",
+      "missing": false
+    },
+    "2023-09-30.assets": {
+      "sheet": "History",
+      "cell": "E25",
+      "missing": false
+    },
+    "2024-09-30.assets": {
+      "sheet": "History",
+      "cell": "F25",
+      "missing": false
+    },
+    "2025-09-30.assets": {
+      "sheet": "History",
+      "cell": "G25",
+      "missing": false
+    },
+    "2022-09-30.payables": {
+      "sheet": "History",
+      "cell": "D26",
+      "missing": false
+    },
+    "2023-09-30.payables": {
+      "sheet": "History",
+      "cell": "E26",
+      "missing": false
+    },
+    "2024-09-30.payables": {
+      "sheet": "History",
+      "cell": "F26",
+      "missing": false
+    },
+    "2025-09-30.payables": {
+      "sheet": "History",
+      "cell": "G26",
+      "missing": false
+    },
+    "2022-09-30.debt": {
+      "sheet": "History",
+      "cell": "D27",
+      "missing": false
+    },
+    "2023-09-30.debt": {
+      "sheet": "History",
+      "cell": "E27",
+      "missing": false
+    },
+    "2024-09-30.debt": {
+      "sheet": "History",
+      "cell": "F27",
+      "missing": false
+    },
+    "2025-09-30.debt": {
+      "sheet": "History",
+      "cell": "G27",
+      "missing": false
+    },
+    "2022-09-30.liabilities": {
+      "sheet": "History",
+      "cell": "D28",
+      "missing": false
+    },
+    "2023-09-30.liabilities": {
+      "sheet": "History",
+      "cell": "E28",
+      "missing": false
+    },
+    "2024-09-30.liabilities": {
+      "sheet": "History",
+      "cell": "F28",
+      "missing": false
+    },
+    "2025-09-30.liabilities": {
+      "sheet": "History",
+      "cell": "G28",
+      "missing": false
+    },
+    "2022-09-30.equity": {
+      "sheet": "History",
+      "cell": "D29",
+      "missing": false
+    },
+    "2023-09-30.equity": {
+      "sheet": "History",
+      "cell": "E29",
+      "missing": false
+    },
+    "2024-09-30.equity": {
+      "sheet": "History",
+      "cell": "F29",
+      "missing": false
+    },
+    "2025-09-30.equity": {
+      "sheet": "History",
+      "cell": "G29",
+      "missing": false
+    },
+    "2022-09-30.parent_equity": {
+      "sheet": "History",
+      "cell": "D30",
+      "missing": false
+    },
+    "2023-09-30.parent_equity": {
+      "sheet": "History",
+      "cell": "E30",
+      "missing": false
+    },
+    "2024-09-30.parent_equity": {
+      "sheet": "History",
+      "cell": "F30",
+      "missing": false
+    },
+    "2025-09-30.parent_equity": {
+      "sheet": "History",
+      "cell": "G30",
+      "missing": false
+    },
+    "2022-09-30.minorities": {
+      "sheet": "History",
+      "cell": "D31",
+      "missing": true
+    },
+    "2023-09-30.minorities": {
+      "sheet": "History",
+      "cell": "E31",
+      "missing": true
+    },
+    "2024-09-30.minorities": {
+      "sheet": "History",
+      "cell": "F31",
+      "missing": true
+    },
+    "2025-09-30.minorities": {
+      "sheet": "History",
+      "cell": "G31",
+      "missing": true
+    },
+    "2022-09-30.retained_earnings": {
+      "sheet": "History",
+      "cell": "D32",
+      "missing": false
+    },
+    "2023-09-30.retained_earnings": {
+      "sheet": "History",
+      "cell": "E32",
+      "missing": false
+    },
+    "2024-09-30.retained_earnings": {
+      "sheet": "History",
+      "cell": "F32",
+      "missing": false
+    },
+    "2025-09-30.retained_earnings": {
+      "sheet": "History",
+      "cell": "G32",
+      "missing": false
+    },
+    "2022-09-30.cfo": {
+      "sheet": "History",
+      "cell": "D33",
+      "missing": false
+    },
+    "2023-09-30.cfo": {
+      "sheet": "History",
+      "cell": "E33",
+      "missing": false
+    },
+    "2024-09-30.cfo": {
+      "sheet": "History",
+      "cell": "F33",
+      "missing": false
+    },
+    "2025-09-30.cfo": {
+      "sheet": "History",
+      "cell": "G33",
+      "missing": false
+    },
+    "2022-09-30.cfi": {
+      "sheet": "History",
+      "cell": "D34",
+      "missing": false
+    },
+    "2023-09-30.cfi": {
+      "sheet": "History",
+      "cell": "E34",
+      "missing": false
+    },
+    "2024-09-30.cfi": {
+      "sheet": "History",
+      "cell": "F34",
+      "missing": false
+    },
+    "2025-09-30.cfi": {
+      "sheet": "History",
+      "cell": "G34",
+      "missing": false
+    },
+    "2022-09-30.cff": {
+      "sheet": "History",
+      "cell": "D35",
+      "missing": false
+    },
+    "2023-09-30.cff": {
+      "sheet": "History",
+      "cell": "E35",
+      "missing": false
+    },
+    "2024-09-30.cff": {
+      "sheet": "History",
+      "cell": "F35",
+      "missing": false
+    },
+    "2025-09-30.cff": {
+      "sheet": "History",
+      "cell": "G35",
+      "missing": false
+    },
+    "2022-09-30.capex": {
+      "sheet": "History",
+      "cell": "D36",
+      "missing": false
+    },
+    "2023-09-30.capex": {
+      "sheet": "History",
+      "cell": "E36",
+      "missing": false
+    },
+    "2024-09-30.capex": {
+      "sheet": "History",
+      "cell": "F36",
+      "missing": false
+    },
+    "2025-09-30.capex": {
+      "sheet": "History",
+      "cell": "G36",
+      "missing": false
+    },
+    "2022-09-30.dividends": {
+      "sheet": "History",
+      "cell": "D37",
+      "missing": false
+    },
+    "2023-09-30.dividends": {
+      "sheet": "History",
+      "cell": "E37",
+      "missing": false
+    },
+    "2024-09-30.dividends": {
+      "sheet": "History",
+      "cell": "F37",
+      "missing": false
+    },
+    "2025-09-30.dividends": {
+      "sheet": "History",
+      "cell": "G37",
+      "missing": false
+    },
+    "2022-09-30.fx": {
+      "sheet": "History",
+      "cell": "D38",
+      "missing": true
+    },
+    "2023-09-30.fx": {
+      "sheet": "History",
+      "cell": "E38",
+      "missing": true
+    },
+    "2024-09-30.fx": {
+      "sheet": "History",
+      "cell": "F38",
+      "missing": true
+    },
+    "2025-09-30.fx": {
+      "sheet": "History",
+      "cell": "G38",
+      "missing": true
+    },
+    "2022-09-30.cash_change": {
+      "sheet": "History",
+      "cell": "D39",
+      "missing": false
+    },
+    "2023-09-30.cash_change": {
+      "sheet": "History",
+      "cell": "E39",
+      "missing": false
+    },
+    "2024-09-30.cash_change": {
+      "sheet": "History",
+      "cell": "F39",
+      "missing": false
+    },
+    "2025-09-30.cash_change": {
+      "sheet": "History",
+      "cell": "G39",
+      "missing": false
+    },
+    "2022-09-30.cash_begin": {
+      "sheet": "History",
+      "cell": "D40",
+      "missing": false
+    },
+    "2023-09-30.cash_begin": {
+      "sheet": "History",
+      "cell": "E40",
+      "missing": false
+    },
+    "2024-09-30.cash_begin": {
+      "sheet": "History",
+      "cell": "F40",
+      "missing": false
+    },
+    "2025-09-30.cash_begin": {
+      "sheet": "History",
+      "cell": "G40",
+      "missing": false
+    },
+    "2022-09-30.cash_end": {
+      "sheet": "History",
+      "cell": "D41",
+      "missing": false
+    },
+    "2023-09-30.cash_end": {
+      "sheet": "History",
+      "cell": "E41",
+      "missing": false
+    },
+    "2024-09-30.cash_end": {
+      "sheet": "History",
+      "cell": "F41",
+      "missing": false
+    },
+    "2025-09-30.cash_end": {
+      "sheet": "History",
+      "cell": "G41",
+      "missing": false
+    },
+    "2022-09-30.net_borrowing": {
+      "sheet": "History",
+      "cell": "D42",
+      "missing": false
+    },
+    "2023-09-30.net_borrowing": {
+      "sheet": "History",
+      "cell": "E42",
+      "missing": false
+    },
+    "2024-09-30.net_borrowing": {
+      "sheet": "History",
+      "cell": "F42",
+      "missing": false
+    },
+    "2025-09-30.net_borrowing": {
+      "sheet": "History",
+      "cell": "G42",
+      "missing": false
+    },
+    "2022-09-30.debt_issued": {
+      "sheet": "History",
+      "cell": "D43",
+      "missing": false
+    },
+    "2023-09-30.debt_issued": {
+      "sheet": "History",
+      "cell": "E43",
+      "missing": false
+    },
+    "2024-09-30.debt_issued": {
+      "sheet": "History",
+      "cell": "F43",
+      "missing": false
+    },
+    "2025-09-30.debt_issued": {
+      "sheet": "History",
+      "cell": "G43",
+      "missing": false
+    },
+    "2022-09-30.debt_repaid": {
+      "sheet": "History",
+      "cell": "D44",
+      "missing": false
+    },
+    "2023-09-30.debt_repaid": {
+      "sheet": "History",
+      "cell": "E44",
+      "missing": false
+    },
+    "2024-09-30.debt_repaid": {
+      "sheet": "History",
+      "cell": "F44",
+      "missing": false
+    },
+    "2025-09-30.debt_repaid": {
+      "sheet": "History",
+      "cell": "G44",
+      "missing": false
+    },
+    "2022-09-30.net_equity_cash_flow": {
+      "sheet": "History",
+      "cell": "D45",
+      "missing": false
+    },
+    "2023-09-30.net_equity_cash_flow": {
+      "sheet": "History",
+      "cell": "E45",
+      "missing": false
+    },
+    "2024-09-30.net_equity_cash_flow": {
+      "sheet": "History",
+      "cell": "F45",
+      "missing": false
+    },
+    "2025-09-30.net_equity_cash_flow": {
+      "sheet": "History",
+      "cell": "G45",
+      "missing": false
+    },
+    "2022-09-30.shares": {
+      "sheet": "History",
+      "cell": "D46",
+      "missing": false
+    },
+    "2023-09-30.shares": {
+      "sheet": "History",
+      "cell": "E46",
+      "missing": false
+    },
+    "2024-09-30.shares": {
+      "sheet": "History",
+      "cell": "F46",
+      "missing": false
+    },
+    "2025-09-30.shares": {
+      "sheet": "History",
+      "cell": "G46",
+      "missing": false
+    },
+    "2022-09-30.share_capital": {
+      "sheet": "History",
+      "cell": "D47",
+      "missing": false
+    },
+    "2023-09-30.share_capital": {
+      "sheet": "History",
+      "cell": "E47",
+      "missing": false
+    },
+    "2024-09-30.share_capital": {
+      "sheet": "History",
+      "cell": "F47",
+      "missing": false
+    },
+    "2025-09-30.share_capital": {
+      "sheet": "History",
+      "cell": "G47",
+      "missing": false
+    },
+    "2022-09-30.reserves": {
+      "sheet": "History",
+      "cell": "D48",
+      "missing": true
+    },
+    "2023-09-30.reserves": {
+      "sheet": "History",
+      "cell": "E48",
+      "missing": true
+    },
+    "2024-09-30.reserves": {
+      "sheet": "History",
+      "cell": "F48",
+      "missing": true
+    },
+    "2025-09-30.reserves": {
+      "sheet": "History",
+      "cell": "G48",
+      "missing": true
+    },
+    "2022-09-30.other_assets": {
+      "sheet": "History",
+      "cell": "D49",
+      "missing": true
+    },
+    "2023-09-30.other_assets": {
+      "sheet": "History",
+      "cell": "E49",
+      "missing": true
+    },
+    "2024-09-30.other_assets": {
+      "sheet": "History",
+      "cell": "F49",
+      "missing": true
+    },
+    "2025-09-30.other_assets": {
+      "sheet": "History",
+      "cell": "G49",
+      "missing": true
+    },
+    "2022-09-30.other_liabilities": {
+      "sheet": "History",
+      "cell": "D50",
+      "missing": true
+    },
+    "2023-09-30.other_liabilities": {
+      "sheet": "History",
+      "cell": "E50",
+      "missing": true
+    },
+    "2024-09-30.other_liabilities": {
+      "sheet": "History",
+      "cell": "F50",
+      "missing": true
+    },
+    "2025-09-30.other_liabilities": {
+      "sheet": "History",
+      "cell": "G50",
+      "missing": true
+    },
+    "2022-09-30.cwip": {
+      "sheet": "History",
+      "cell": "D51",
+      "missing": true
+    },
+    "2023-09-30.cwip": {
+      "sheet": "History",
+      "cell": "E51",
+      "missing": true
+    },
+    "2024-09-30.cwip": {
+      "sheet": "History",
+      "cell": "F51",
+      "missing": true
+    },
+    "2025-09-30.cwip": {
+      "sheet": "History",
+      "cell": "G51",
+      "missing": true
+    },
+    "2022-09-30.investments": {
+      "sheet": "History",
+      "cell": "D52",
+      "missing": false
+    },
+    "2023-09-30.investments": {
+      "sheet": "History",
+      "cell": "E52",
+      "missing": false
+    },
+    "2024-09-30.investments": {
+      "sheet": "History",
+      "cell": "F52",
+      "missing": false
+    },
+    "2025-09-30.investments": {
+      "sheet": "History",
+      "cell": "G52",
+      "missing": false
+    }
+  },
+  "outputs": {
+    "Operating business value": "'DCF'!D31",
+    "Equity value": "'DCF'!D37",
+    "Value per share": "'DCF'!D40"
+  }
+}

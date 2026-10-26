@@ -1,0 +1,12 @@
+{
+  "ticker": "AAPL",
+  "provider": "Yahoo Finance via yfinance",
+  "source_url": "https://finance.yahoo.com/quote/AAPL/financials/",
+  "retrieved_utc": "2026-10-26T14:27:04.199053+00:00",
+  "basis": "Provider annual statements; consolidated/standalone basis not independently verified",
+  "route": "Offline cache",
+  "raw_file": "raw_source.json",
+  "sha256": "31592c63b655becc07a242b2c32dd9900c74eeb234d70ffa5dec3233f24e5d13",
+  "normalized_units": "USD millions",
+  "shares_units": "millions"
+}
