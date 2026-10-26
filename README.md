@@ -1,104 +1,83 @@
 # AutoFMScrapper
 
-A separate three-statement model and DCF. It downloads the company's annual
-history and leaves the forecast and valuation inputs for you to enter.
+Pulls a company's annual financials and builds an Excel workbook with a three-statement model and a DCF. The history is filled in for you. The forecast and valuation inputs are yours to enter.
 
-Double-click **Open AutoFMScrapper.cmd**. Enter a ticker and market, then click
-**Create my workbook**. You can reuse a saved source snapshot or request a new
-download. For an Indian company, you can select a Screener annual Excel/CSV
-export. Each run gets its own folder and ZIP inside Output; earlier files are
-preserved.
+[Add one line here on why you built it.]
 
-An AAPL example is already in Recent workbooks. Select its row and click
-Open workbook to try the blank-input model before fetching another company.
+## About this project
 
-## First time in the workbook
+I built AutoFMScrapper myself as part of my finance and Python learning. I have also used AI tools to some extent to structure the code and fix bugs, and I've managed the code and tested the output. Mistakes are still possible, so check the numbers against the original filings before relying on them.
 
-1. **Check History.** Downloaded numbers are green. Yellow blanks mean the
-   source did not provide that figure. If a required value is missing, check
-   the filing and enter it here. Do not use zero unless it really is zero.
-2. **Open Assumptions.** Fill the five yellow forecast columns. For 5%, type
-   `5%`. Enter `0` for a year with no borrowing, dividends or share financing.
-   The last-actual column is a reference, not a recommended forecast.
-   To keep the same inputs for all five years, fill F9:F23, select F9:J23
-   and press Ctrl+R. You can then change individual years.
-3. **Read Statements.** The income statement, balance sheet and cash flow use
-   those inputs. Fill one year at a time if you prefer. Look at the checks
-   below the statements. Negative cash says funding is needed; it is not
-   hidden by an automatic loan.
-4. **Enter the DCF inputs.** Add your discount rate, long-run growth, share
-   count, other claims and non-operating assets on Assumptions. Enter zero
-   for claims/assets you have checked and found absent. Growth must be below
-   the discount rate. A current share price is optional.
-5. **Read DCF.** It takes cash flow from the same forecast. Missing inputs
-   leave the related result blank, so a blank value does not mean worthless.
+## Disclaimer
 
-All forecast and DCF input cells start empty, including zero-value assumptions.
-The formulas are already linked. These formulas calculate in Excel when you
-enter your own inputs; there is no need to rerun the Python app after editing.
+This tool is for learning and research only. It is not financial advice. The data comes from third-party sources and may be incomplete or wrong, and every forecast and valuation depends on the inputs you enter. Use it at your own risk.
 
-## What is included
+## Quick start
 
-- Three visible historical years and five forecast years on Statements.
-- Every available normalized year on History, with editable source corrections.
-- All original source line items and available periods on Raw statements.
-- The original downloaded JSON/import, normalized history, source field map
-  and input cell map in Sources, plus the generation check report.
+1. Run `Setup AutoFMScrapper.cmd` once. It creates the Python environment and installs `requirements.txt`. You need Python installed on Windows.
+2. Double-click `Open AutoFMScrapper.cmd`.
+3. Enter a ticker and market, then click **Create my workbook**.
 
-The provider controls how much history is available. The model never invents
-older years, missing items or analyst assumptions. Period labels and reporting
-basis are as supplied. Review source gaps in the app and the original filing.
-This format is for non-financial companies; banks and insurers need a different
-statement and valuation structure.
+Each run gets its own folder and ZIP in `Output/`, so old workbooks never get overwritten. You can reuse a saved snapshot or fetch fresh data. For Indian companies you can load a Screener annual Excel/CSV export instead.
 
-## How the simple model works
+There's an AAPL example under Recent workbooks if you want to try the blank-input model first.
 
-Revenue follows your growth input. Gross margin sets cost of sales; EBITDA
-margin sets cash operating costs. Depreciation and interest use opening fixed
-assets and opening debt. Tax is charged on positive profit, without tax-loss
-carryforwards. Receivables, inventory and payables follow your day assumptions.
-Other asset and liability balances stay constant. Equity rolls forward with
-profit, dividends and cash share financing. Share buybacks are negative share
-financing; the DCF share count is a separate input you must review.
+## Using the workbook
 
-There are no acquisitions, disposals, stock-compensation schedules, separate FX
-forecasts or advanced debt/tax modules. Historical cash-flow reconciliation
-items remain visible. These simplifications keep the three statements linked
-and the inputs readable; they do not supply a company-specific forecast.
+1. **History:** Green numbers came from the source. Yellow blanks mean the source didn't have that figure, so check the filing and fill it in. Only enter 0 if it really is 0.
+2. **Assumptions:** Fill the five yellow forecast columns (type `5%` for 5%). Use `0` for a year with no borrowing, dividends or share financing. To reuse the same inputs for all five years, fill F9:F23, select F9:J23 and press Ctrl+R.
+3. **Statements:** The income statement, balance sheet and cash flow run off your inputs. Read the checks under them. Negative cash means you need funding. I don't hide it with an automatic loan.
+4. **DCF inputs:** Back on Assumptions, add your discount rate, long-run growth (must be below the discount rate), share count, other claims and non-operating assets. Share price is optional.
+5. **DCF:** Uses cash flow from the same forecast. If an input is missing, that result stays blank. Blank doesn't mean worthless.
 
-DCF uses year-end free cash flow to the firm, discounted at WACC. It adds cash
-and eligible non-operating assets, then deducts debt and other claims. Shares
-are in millions; the per-share formula converts the workbook's monetary units
-to currency units. Terminal cash flow grows from year five at your entered
-rate; check that investment supports that growth.
+Everything is plain Excel formulas, so it recalculates as you type. You don't need to rerun the app.
 
-[DCF method reference — CFA Institute](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation).
+## What's in the workbook
 
-## Local setup
+- **Statements:** three historical years plus five forecast years
+- **History:** every normalized year available, with editable source corrections
+- **Raw statements:** all original line items and periods from the source
+- **Sources:** the original download/import, normalized history, field map, input cell map and the generation check report
 
-This folder has its own code, Python environment, cache, history and outputs.
-It does not import Studio's model engine or modify its workbooks. The launcher
-uses the environment inside this folder. If it is missing, the setup script
-creates it and installs requirements.txt. Python must be installed on Windows.
+How much history you get depends on the data provider. Nothing is made up. Missing items stay blank.
 
-Run **Setup AutoFMScrapper.cmd** to repair that Python environment. Workbook creation also
-uses the bundled Node/Artifact Tool runtime already on this computer. On another
-computer, set `FM_NODE` to Node and `FM_ARTIFACT_MODULES` to a node_modules folder
-containing `@oai/artifact-tool`. Do not modify the bundled dependency folder.
-Native calculation verification needs Microsoft Excel on Windows. Once saved,
-the workbook has no links back to Python and can be used on its own in Excel.
+## How the model works
 
-CLI: `.\.venv\Scripts\python.exe AutoFMScrapper.py --ticker AAPL`. Add `--refresh` for a new fetch,
-`--import-file path.xlsx` for a Screener export, or `--output new-folder`.
+Revenue follows your growth input. Gross margin sets cost of sales, and EBITDA margin sets cash operating costs. Depreciation and interest are based on opening fixed assets and opening debt. Tax is charged on positive profit only, with no loss carryforwards. Receivables, inventory and payables come from your days assumptions, and other balances stay flat. Equity rolls forward with profit, dividends and share financing (buybacks count as negative share financing).
 
-## Working on the source
+Not included: acquisitions, disposals, stock comp, FX forecasts, and detailed debt or tax schedules. I kept it simple so the statements stay linked and the inputs stay readable. It won't give you a company-specific forecast. That part is yours.
 
-The desktop interface is in `autofmscrapper/gui.py`. `runner.py` handles source files,
-workbook generation and saved runs. `model.py` defines the worksheet layout and
-Excel formulas; `write.mjs` applies formatting and exports the workbook.
-Source mapping is in `data.py`, and Yahoo downloads are in `fetch_data.py`.
+The DCF discounts year-end free cash flow to the firm at WACC, adds cash and non-operating assets, and subtracts debt and other claims. Terminal value grows from year five at your rate, so check that your investment assumptions support that growth. Share count is in millions.
 
-Install `requirements-dev.txt` for the Python formatter and linter. Formatting
-rules are in `pyproject.toml`. From this folder, run
-`.\.venv\Scripts\python.exe -m ruff check autofmscrapper AutoFMScrapper.py fetch_data.py`
-and use `ruff format` with the same paths to format an edit.
+Reference: [CFA Institute, free cash flow valuation](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation)
+
+This is for non-financial companies. Banks and insurers need a different structure.
+
+## Running from source
+
+Command line:
+
+```
+.\.venv\Scripts\python.exe AutoFMScrapper.py --ticker AAPL
+```
+
+Add `--refresh` to fetch new data, `--import-file path.xlsx` for a Screener export, or `--output new-folder` to pick the output folder.
+
+Workbook creation uses Node with `@oai/artifact-tool`. It's bundled on my machine but not in this repo. On another computer, set `FM_NODE` to your Node path and `FM_ARTIFACT_MODULES` to a `node_modules` folder containing that package. Checking the calculations natively needs Microsoft Excel on Windows. Once saved, the workbook has no links back to Python.
+
+## Code layout
+
+- `autofmscrapper/gui.py`: desktop interface
+- `autofmscrapper/runner.py`: source files, workbook generation, saved runs
+- `autofmscrapper/model.py`: worksheet layout and Excel formulas
+- `autofmscrapper/data.py`: source mapping
+- `write.mjs`: formatting and export
+- `fetch_data.py`: Yahoo downloads
+
+For linting and formatting, install `requirements-dev.txt` and run:
+
+```
+.\.venv\Scripts\python.exe -m ruff check autofmscrapper AutoFMScrapper.py fetch_data.py
+```
+
+Use `ruff format` on the same paths. Rules are in `pyproject.toml`.
